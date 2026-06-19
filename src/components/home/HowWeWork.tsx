@@ -94,12 +94,12 @@ export function HowWeWork() {
       className="relative"
     >
       <div
-        className="sticky top-0 h-screen flex items-center overflow-hidden"
+        className="sticky top-0 h-screen flex items-start overflow-hidden pt-20 md:pt-24"
         style={{ background: 'var(--color-surface)' }}
       >
-        <div className="container-main w-full py-16 md:py-20">
+        <div className="container-main w-full py-6 md:py-10 max-h-screen overflow-y-auto md:overflow-visible">
           {/* Header */}
-          <div ref={headerRef} className="mb-12 md:mb-16 max-w-2xl">
+          <div ref={headerRef} className="mb-6 md:mb-10 max-w-2xl">
             <motion.div
               className="flex items-center gap-3 mb-4"
               initial={{ opacity: 0, x: -20 }}
@@ -124,7 +124,7 @@ export function HowWeWork() {
           </div>
 
           {/* Steps + Image */}
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-10 lg:gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-10 lg:gap-16 items-start">
             {/* Scroll-driven steps */}
             <div className="relative h-[320px] md:h-[280px]">
               {/* Progress indicator */}
@@ -161,7 +161,7 @@ export function HowWeWork() {
 
             {/* Sticky image */}
             <motion.div
-              className="relative w-full h-[340px] md:h-[400px] rounded-3xl overflow-hidden"
+              className="relative w-full h-[320px] md:h-[360px] rounded-3xl overflow-hidden"
               style={{ y: imageY }}
               initial={{ opacity: 0, x: 40 }}
               animate={isHeaderInView ? { opacity: 1, x: 0 } : {}}
