@@ -139,11 +139,10 @@ export function AboutSection() {
                 return (
                   <motion.div
                     key={i}
-                    className={`rounded-2xl border transition-all duration-300 overflow-hidden ${
-                      isOpen
-                        ? 'border-brand/25 bg-brand/[0.05]'
-                        : 'border-white/08 bg-white/[0.02] hover:border-white/15'
-                    }`}
+                    className={`rounded-2xl border transition-all duration-300 overflow-hidden ${isOpen
+                      ? 'border-brand/25 bg-brand/[0.05]'
+                      : 'border-white/08 bg-white/[0.02] hover:border-white/15'
+                      }`}
                     initial={{ opacity: 0, y: 16 }}
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ delay: 0.5 + i * 0.07, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
@@ -154,18 +153,16 @@ export function AboutSection() {
                       className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left group"
                     >
                       <span
-                        className={`text-sm font-semibold transition-colors duration-300 ${
-                          isOpen ? 'text-brand' : 'text-white group-hover:text-brand'
-                        }`}
+                        className={`text-sm font-semibold transition-colors duration-300 ${isOpen ? 'text-brand' : 'text-white group-hover:text-brand'
+                          }`}
                       >
                         {item.q}
                       </span>
                       <span
-                        className={`shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300 ${
-                          isOpen
-                            ? 'bg-brand text-black rotate-0'
-                            : 'bg-white/08 text-white/60'
-                        }`}
+                        className={`shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300 ${isOpen
+                          ? 'bg-brand text-black rotate-0'
+                          : 'bg-white/08 text-white/60'
+                          }`}
                       >
                         {isOpen ? <Minus size={14} /> : <Plus size={14} />}
                       </span>

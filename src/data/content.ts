@@ -14,10 +14,10 @@ export const siteConfig = {
   address:
     'Plot #4, 1st Floor, Sumya Corner, Shaheed-e-Millat Road, Block #3, Karachi, Pakistan',
   social: {
-    facebook: 'https://facebook.com/maqbuilders',
-    linkedin: 'https://linkedin.com/company/maqbuilders',
-    youtube: 'https://youtube.com/@maqbuilders',
-    instagram: 'https://instagram.com/maqbuilders',
+    facebook: 'https://www.facebook.com/EliteWarehouseSystems',
+    instagram: 'https://www.instagram.com/maq_group_of_companies?igsh=MTE5cXhxd24xOHVjbQ%3D%3D&utm_source=qr',
+    whatsapp: 'https://wa.me/923001627627',
+    zameen: 'https://www.zameen.com/Property/kemari_town_elite_warehouse_systems_elite_warehouse_systems_ready_to_move_for_rent-54287370-17306-4.html',
   },
   assets: {
     logo: '/assets/logo.png',
