@@ -22,7 +22,7 @@ export const galleryImages = [
   {
     id: '5',
     title: 'Warehouse Interior',
-    image: 'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=800&q=80&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80&auto=format&fit=crop',
   },
   {
     id: '6',

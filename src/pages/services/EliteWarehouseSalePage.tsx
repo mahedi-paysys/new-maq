@@ -17,7 +17,7 @@ export function EliteWarehouseSalePage() {
           <Reveal>
             <div className="aspect-video rounded-2xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=900&q=80&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80&auto=format&fit=crop"
                 alt="Elite Warehouse For Sale"
                 className="w-full h-full object-cover"
               />
